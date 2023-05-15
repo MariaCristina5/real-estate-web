@@ -355,7 +355,6 @@ body {
     background-color: rgb(238, 238, 238);
     width: 100%;
     height: 100%;
-    color: black;
 }
 
 .testimonial-content {
@@ -434,12 +433,128 @@ body {
     color: #3a92d6;
 }
 
-/* ------------- */
-.test {
-    height: 300px;
+/* -------Five page styles------ */
+.partners-section {
+    height: 100%;
+    width: 100%;
     background-color: transparent;
 }
 
+.partners-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.partners-logo-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.partners-logo-one img, .partners-logo-two img{
+    width: 65px;
+    height: 65px;
+}
+
+#dribble-logo {
+    height: 40px;
+    width: 100px;
+}
+
+.partners-logo-two {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#google-logo {
+    width: 50px;
+    height: 50px;
+}
+
+#edge-logo {
+    width: 45px;
+    height: 45px;
+}
+
+/* ----Submit info Section styles------ */
+.submit-info-section {
+    width: 100%;
+    background-color: #fff;
+}
+
+.submit-info-container {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-info-container h2 {
+    font-size: var(--h2-size);
+    color: var(--grey-text);
+    font-weight: 400;
+}
+
+.submit-info-container p {
+    text-align: center;
+    padding: 30px 0;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    color: var(--dark-text);
+}
+
+.submit-info-container button {
+    margin: 18px 0;
+    padding: 0 25px;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: var(--bg-blue);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* ----Footer styles----- */
+.footer-section {
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+.footer-container {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-text {
+    margin-top: 20px;
+    color: var(--dark-text);
+}
+
+.links-controler-footer {
+    background-color: #dddddd;
+    width: 190px;
+    text-align: center;
+    padding: 5px 12px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+/* ------Media queries------- */
 @media only screen and (max-width: 998px) {
     .header-container{
         flex-direction: column;
